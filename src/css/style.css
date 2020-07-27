@@ -1,0 +1,31 @@
+.row {
+  background-color: #dcdcdc;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+.card {
+ background-color: #fff;
+ padding: 10px;
+ margin: 5px;
+ text-align: center;
+ outline: 1px solid green;
+}
+.some-res {
+ margin-bottom: 80px;
+ background-color: rgba(pink, .5);
+}
+
+.cart-quantity-input {
+ width: 30px;
+}
+.card h2 {
+ margin: 0;
+ font-weight: normal;
+}
+.card .price {
+ font-weight: bold;
+ color: red;
+ margin: 10px 0;
+}
